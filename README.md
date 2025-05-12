@@ -10,3 +10,4 @@ Major difference
 1. The functions have been ported to use HAL API.
 2. Language change from C++ to C
 3. Added a new function called `Madgwick2`, which is derived from Madgwick's internal report released on 2010. This function uses `zeta`, thus compensating gyro drift form long-term use.
+4. Added a new structure `imu_t` for storing IMU data and other parameters in order to easily use multiple IMUs.
